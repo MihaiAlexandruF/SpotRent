@@ -81,7 +81,7 @@ with open("OLX_chirii_descriere.csv", "w", newline="", encoding="utf-8-sig") as 
 
                 print(f"\n---\nAccesez anunțul: {title}\n{link}")
                 driver.get(link)
-                # Scroll random pe pagină (pentru naturalete)
+                # Scroll random pe pagină
                 scroll_y = random.randint(40, 400)
                 driver.execute_script(f"window.scrollTo(0, {scroll_y});")
                 time.sleep(random.uniform(0.5, 1.2))
