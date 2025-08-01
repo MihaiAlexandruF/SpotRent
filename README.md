@@ -24,7 +24,7 @@ Right now, the focus is on:
 - Pandas + custom labeling for data prep
 - HuggingFace / DeepSeek / Scikit-learn for AI classification
 - React for frontend
-- Firebase or Supabase for simple backend
+- ASP.NET Core Web API
 
 ## 👋 Work in Progress
 
